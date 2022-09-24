@@ -8,10 +8,12 @@ public class Emp_wage {
 		
 		Random Input = new Random();
 		
-		int Ran = Input.nextInt(3);
-		
 		int Wage_per_hour = 20;
 		int Full_hour ;
+		
+		for(int i =0;i<20;i++) {
+			
+		int Ran = Input.nextInt(3);
 		
 		switch (Ran) {
 		
@@ -32,6 +34,8 @@ public class Emp_wage {
 		}
 			int Emp_wage_perday = Full_hour*Wage_per_hour ;
 			System.out.println(Emp_wage_perday);
+			
+			 Emp_wage_permonth = Emp_wage_perday + Emp_wage_permonth;
 	}
-
+			System.out.println(Emp_wage_permonth);
 }
