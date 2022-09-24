@@ -16,9 +16,6 @@ public class Emp_wage {
 		if(Ran == 2) {
 			Full_hour =8;
 			System.out.println("Employee is present");
-		}else if (Ran == 1) {
-			Full_hour = 4;
-			System.out.println("Employee is Part time");
 		}
 		else {
 				Full_hour = 0;
