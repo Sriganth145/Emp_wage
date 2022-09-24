@@ -10,8 +10,9 @@ public class Emp_wage {
 		
 		int Wage_per_hour = 20;
 		int Full_hour ;
+		int time = 0;
 		
-		for(int i =0;i<20;i++) {
+		for(int i =0;time<100;i++) {
 			
 		int Ran = Input.nextInt(3);
 		
@@ -23,11 +24,13 @@ public class Emp_wage {
 					
 					
 		case 1 : Full_hour = 4;
+				time = time+4;
 					System.out.println("Employee is Part time");
 					break;
 					
 		case 2 : 
 				Full_hour = 8;
+				time =time+8;
 				System.out.println("Employee is Present");
 				break;
 			
