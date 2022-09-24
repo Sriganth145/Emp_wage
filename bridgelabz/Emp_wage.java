@@ -8,7 +8,7 @@ public class Emp_wage {
 		
 		Random Input = new Random();
 		
-		int Ran = Input.nextInt(3);
+		int Ran = Input.nextInt(2);
 		
 		int Wage_per_hour = 20;
 		int Full_hour ;
